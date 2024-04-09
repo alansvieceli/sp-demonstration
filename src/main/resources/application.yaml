@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Spring Boot Demonstration
+  profiles:
+    include: ${env}
+  jackson:
+    time-zone: UTC
+    serialization:
+      fail-on-empty-beans: false
+      write-dates-as-timestamps: false
+    deserialization:
+      fail-on-unknown-properties: true
+
+server:
+  port: 8080
+  servlet:
+    contextPath: /api
+  error:
+    includeStacktrace: ALWAYS
