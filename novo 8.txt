@@ -1,0 +1,36 @@
+admission-process-worker >
+   recebe a msg, tranformar o que a booking manda e transforma pro nosso padrão admission
+
+admission-command >
+   ele só grava no banco do admission
+
+admission-sync-worker >	
+   converte o nosso padrão do glise
+
+admission-sync-receiver >
+   comunicação entre gliese e manda pro admission.
+
+admission-dasa-integration >
+
+admission-translate >
+
+admission-query >
+
+admission-authorizer >
+
+---------------------------------------------------------------------------------------
+admission-sync-worker > UNSA-1128 > Gabriel > https://bitbucket.org/dasa_desenv/admission-sync-worker/pull-requests/230
+
+admission-command > UNSA-1126 > Alan > https://bitbucket.org/dasa_desenv/admission-command/pull-requests/317
+
+admission-query > UNSA-1127 > Gabriel > https://bitbucket.org/dasa_desenv/admission-query/pull-requests/168
+
+admission-authorizer > UNSA-1168 > Wagner > https://bitbucket.org/dasa_desenv/admission-authorizer-v2/pull-requests/63
+
+admission-sync-receiver > Gabriel > UNSA-1172 > https://bitbucket.org/dasa_desenv/admission-sync-receiver/pull-requests/58
+
+admission-translate > Gabriel > UNSA-1173 > https://bitbucket.org/dasa_desenv/admission-translate/pull-requests/32
+
+dasa-integration > Gabriel > UNSA-1174 > https://bitbucket.org/dasa_desenv/dasa-integration/pull-requests/441
+
+admission-process-worker > Guilherme > UNSA-1167 > https://bitbucket.org/dasa_desenv/admission-process-worker/pull-requests/103
